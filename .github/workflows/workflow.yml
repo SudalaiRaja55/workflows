@@ -5,5 +5,5 @@ jobs:
     runs-on : ubuntu-latest
     steps:
      - name : Show working directory
-       run : sh 'pwd'
+       run : echo "First workflow"
        
