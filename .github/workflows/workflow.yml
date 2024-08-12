@@ -5,5 +5,7 @@ jobs:
     runs-on : ubuntu-latest
     steps:
      - name : Show working directory
-       run : pwd
+       run : |
+             pwd
+             ls -ll
        
